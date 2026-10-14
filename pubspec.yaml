@@ -1,0 +1,30 @@
+name: kaloriku
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0+1
+  shared_preferences: ^2.5.2
+  jwt_decoder: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/KaloriKu.png
+    - assets/images/background.jpg
+    - assets/images/logo.png
+    - assets/images/Rdps.jpeg
+    - assets/images/Nida.jpg
+    # - assets/icons/
+    # - assets/fonts/
